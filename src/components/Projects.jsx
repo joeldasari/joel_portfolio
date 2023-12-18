@@ -13,7 +13,7 @@ export const Projects = () => {
       </div>
       {/* anime */}
       <div className="flex max-sm:flex-col max-sm:items-center justify-center">
-        <div className="h-[60vh] w-[60vw] max-sm:h-[75vh] max-sm:w-[90vw] flex max-sm:flex-col max-sm:items-center justify-between px-4 max-sm:py-4 shadow-2xl rounded-lg bg-white">
+        <div className="h-[60vh] w-[60vw] max-sm:h-[75vh] max-sm:w-[90vw] flex max-sm:flex-col max-sm:items-center justify-between max-sm:justify-around px-4 max-sm:py-4 shadow-2xl rounded-lg bg-white">
           <div className="flex items-center">
             <img
               src={animevault}
@@ -88,7 +88,7 @@ export const Projects = () => {
 
       {/* moviesdb  */}
       <div className="flex justify-center max-sm:flex-col max-sm:items-center">
-        <div className="h-[60vh] w-[60vw] max-sm:h-[75vh] max-sm:w-[90vw] flex max-sm:flex-col-reverse max-sm:items-center max-sm:py-4 justify-between px-4 shadow-2xl rounded-lg bg-white">
+        <div className="h-[60vh] w-[60vw] max-sm:h-[80vh] max-sm:w-[90vw] flex max-sm:flex-col-reverse max-sm:items-center max-sm:py-4 justify-between max-sm:justify-around px-4 shadow-2xl rounded-lg bg-white">
           <div className="flex flex-col items-center w-[300px] px-2 py-10 max-sm:py-4 gap-4">
             <div className="flex items-center justify-center gap-2">
               <span className="text-lg font-semibold">MOVIES DB</span>
@@ -160,7 +160,7 @@ export const Projects = () => {
       </div>
       {/* netflix clone  */}
       <div className="flex justify-center max-sm:flex-col max-sm:items-center">
-        <div className="h-[60vh] w-[60vw] max-sm:h-[75vh] max-sm:w-[90vw] flex max-sm:flex-col max-sm:items-center max-sm:py-4 justify-between px-4 shadow-2xl rounded-lg bg-white">
+        <div className="h-[60vh] w-[60vw] max-sm:h-[80vh] max-sm:w-[90vw] flex max-sm:flex-col max-sm:items-center max-sm:py-4 justify-between max-sm:justify-around px-4 shadow-2xl rounded-lg bg-white">
           <div className="flex items-center">
             <img
               src={netflix}
