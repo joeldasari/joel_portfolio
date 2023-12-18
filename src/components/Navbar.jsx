@@ -22,7 +22,7 @@ export const Navbar = () => {
           className="bg-blue-500 text-white rounded-md p-2 hover:bg-blue-600 active:bg-blue-700"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1UXtScTqs3TTz0RWY052Ykfqd6RD-snM1/view?usp=sharing"
+              "https://drive.google.com/file/d/1gM52bShOz--N9dGw8b-dr7MHY17YhYOz/view?usp=sharing"
             )
           }
         >
