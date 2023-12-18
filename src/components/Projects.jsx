@@ -18,7 +18,7 @@ export const Projects = () => {
             <img
               src={animevault}
               alt="animevault"
-              className="h-[55vh] max-sm:h-[30vh] rounded-2xl shadow-lg cursor-pointer"
+              className="h-[55vh] max-sm:pt-2 max-sm:h-[30vh] rounded-2xl shadow-lg cursor-pointer"
               onClick={() =>
                 window.open("https://joeld-anime-vault.netlify.app")
               }
@@ -152,7 +152,7 @@ export const Projects = () => {
             <img
               src={moviesdb}
               alt="netflix"
-              className="h-[55vh] rounded-2xl shadow-lg cursor-pointer max-sm:h-[30vh]"
+              className="h-[55vh] max-sm:pt-2 rounded-2xl shadow-lg cursor-pointer max-sm:h-[30vh]"
               onClick={() => window.open("https://joeld-moviesDB.netlify.app")}
             />
           </div>
@@ -165,7 +165,7 @@ export const Projects = () => {
             <img
               src={netflix}
               alt="netflix"
-              className="h-[55vh] rounded-2xl shadow-lg cursor-pointer max-sm:h-[30vh]"
+              className="h-[55vh] max-sm:pt-2 rounded-2xl shadow-lg cursor-pointer max-sm:h-[30vh]"
               onClick={() =>
                 window.open("https://joeld-netflix-clone.netlify.app")
               }
