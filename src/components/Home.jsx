@@ -43,7 +43,7 @@ export const Home = () => {
       <div className="text-xl max-sm:text-sm font-medium flex justify-center gap-10 items-center mt-[100px] max-sm:mt-8">
         <p>Tech Stack |</p>
         <img
-          src="https://skillicons.dev/icons?i=html,css,sass,javascript,react,tailwindcss,nodejs,expressjs,mongodb,firebase"
+          src="https://skillicons.dev/icons?i=html,css,sass,javascript,react,tailwindcss"
           className="max-sm:h-5"
         />
       </div>
